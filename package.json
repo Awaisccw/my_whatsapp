@@ -1,0 +1,16 @@
+{
+  "name": "whatsapp-comedian-bot",
+  "version": "1.0.0",
+  "description": "WhatsApp bot that connects to an n8n AI workflow",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "socket.io": "^4.7.2",
+    "whatsapp-web.js": "^1.23.0"
+  }
+}
