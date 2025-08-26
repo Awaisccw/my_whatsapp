@@ -1,0 +1,11 @@
+# Dependency directories
+node_modules/
+
+# WhatsApp session data (VERY IMPORTANT - PRIVATE CREDENTIALS)
+.wwebjs_auth/
+
+# Nixpacks generated files
+.nixpacks/
+
+# General log files
+*.log
