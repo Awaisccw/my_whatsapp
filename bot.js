@@ -7,7 +7,7 @@ const { Server } = require('socket.io');
 // ===================================================================================
 // --- IMPORTANT: PASTE YOUR N8N PRODUCTION WEBHOOK URL HERE ---
 // ===================================================================================
-const N8N_WEBHOOK_URL = 'https://n8n-n8n.xapfvn.easypanel.host/webhook/custom_wa_bot'; 
+const N8N_WEBHOOK_URL = 'https://n8n-n8n2.xapfvn.easypanel.host/webhook/custom_wa_bot'; 
 // ===================================================================================
 
 
@@ -131,3 +131,4 @@ const PORT = process.env.PORT || 3000; // Railway provides the PORT environment 
 httpServer.listen(PORT, () => {
     console.log(`Server is listening for QR code page connections on port ${PORT}`);
 });
+
